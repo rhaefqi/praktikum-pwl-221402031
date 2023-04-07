@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(to left,black,white,black) ;
+}
+
+fieldset{
+    background-color: white;
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 15px;
+    border: 3px solid black;
+    border: none;
+    box-shadow: 4px 4px 4px black;
+}
+
+legend{
+    text-align: center;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+b{
+    font-style: italic;
+    color: red;
+}
+
+P{
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+textarea{
+    resize: none;
+}
+
+a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    padding: 10px;
+    width: 200px;
+}
+
+input[type=submit]{
+    font-size: 0.9em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: none;
+    width: 150px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 4px black;
+}
+
+input[type=reset]{
+    font-size: 0.9em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: none;
+    width: 150px;
+    border-radius: 8px;
+    box-shadow:  3px 3px 4px black;
+}
